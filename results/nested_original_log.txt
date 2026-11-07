@@ -1,0 +1,7 @@
+                         model     R2  R2_sd     MAE  MAE_sd    RMSE  RMSE_sd
+0                Random Forest  0.698  0.059  11.567   0.889  17.645    1.700
+1                     LightGBM  0.630  0.044  12.535   0.644  19.580    1.194
+2                          DNN  0.132  0.096  20.230   0.633  30.000    1.650
+3             Average ensemble  0.619  0.056  12.865   1.309  19.859    1.440
+4  Stacked ensemble (proposed)  0.668  0.031  12.028   0.467  18.555    0.885
+exit 0

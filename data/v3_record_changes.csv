@@ -1,0 +1,4 @@
+record,action,reason
+Ref 15,removed,no current or voltage reported; size cell corrupted into a date
+Ref 17,removed,"vacuum process (10^-3 Pa); no current, voltage, pH, temperature or electrode data"
+Ref 18,removed (merged with Ref 1),identical conditions and size to Ref 1 (duplicate record)

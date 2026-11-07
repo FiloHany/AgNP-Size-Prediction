@@ -1,0 +1,35 @@
+final configuration: imputer=Mean | aug=none | physics=yes | log-target=no | indicators=no (selected in 4 of 30 outer folds)
+[  0.9 min] D 30 records (Refs 15, 17 removed; Ref 18 merged), 5-fold CV: R2 = 0.660
+[  2.7 min] D 30 records, 10-fold CV  [baseline for the rows below]: R2 = 0.639
+[  4.4 min] D   + physics features: R2 = 0.628
+[  6.1 min] D   + missing-value indicators: R2 = 0.642
+[  7.8 min] D   + log-transformed target: R2 = 0.570
+[  9.5 min] D   no augmentation: R2 = 0.722
+[ 11.1 min] D   Gaussian copula instead of noise: R2 = 0.661
+[ 12.0 min] D   mean imputation instead of autoencoder: R2 = 0.653
+[ 13.0 min] D   KNN imputation instead of autoencoder: R2 = 0.619
+[ 14.5 min] T Gaussian copula: stacked R2 = 0.712
+[ 15.4 min] T Noise augmentation: stacked R2 = 0.630
+[ 15.4 min] T No augmentation: stacked R2 = 0.729
+[ 16.2 min] A Without physics features: R2 = 0.699
+[ 17.8 min] A Autoencoder imputation: R2 = 0.715
+[ 18.6 min] A KNN imputation: R2 = 0.707
+[ 19.4 min] A Log-transformed target: R2 = 0.616
+[ 20.1 min] A With missing indicators: R2 = 0.728
+[ 20.2 min] L leave-one-study-out: stacked R2 = 0.601
+[ 22.3 min] Y y-randomization: mean -0.242 max 0.082
+[ 22.5 min] C n=10
+[ 22.8 min] C n=15
+[ 23.1 min] C n=20
+[ 23.4 min] C n=25
+[ 23.6 min] C n=30
+[ 24.0 min] I done
+[ 24.4 min] M done
+[ 24.7 min] O Gaussian copula
+[ 25.1 min] O Noise augmentation
+[ 25.1 min] ALL DONE
+
+real	25m5.602s
+user	48m7.426s
+sys	0m16.166s
+exit 0

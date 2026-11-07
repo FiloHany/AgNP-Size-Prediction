@@ -1,0 +1,5 @@
+,mean_diff,mean_diff,std_diff,std_diff,ks,ks,corr_diff,corr_diff,accuracy,accuracy,dcr_ratio,dcr_ratio
+,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+method,,,,,,,,,,,,
+copula,0.035,0.005,0.048,0.025,0.148,0.014,0.195,0.035,0.703,0.033,1.967,0.551
+noise,0.028,0.011,0.029,0.011,0.225,0.014,0.074,0.025,0.738,0.027,0.178,0.045

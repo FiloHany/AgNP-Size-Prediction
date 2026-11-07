@@ -1,0 +1,22 @@
+configuration,times_selected
+imputer=Mean | aug=none | physics=yes | log-target=no | indicators=no,4
+imputer=Mean | aug=noise | physics=yes | log-target=no | indicators=no,2
+imputer=Mean | aug=copula | physics=yes | log-target=yes | indicators=no,2
+imputer=Mean | aug=none | physics=no | log-target=yes | indicators=no,2
+imputer=Mean | aug=noise | physics=yes | log-target=yes | indicators=yes,2
+imputer=KNN | aug=none | physics=yes | log-target=no | indicators=no,2
+imputer=Mean | aug=copula | physics=yes | log-target=no | indicators=no,2
+imputer=Mean | aug=noise | physics=yes | log-target=yes | indicators=no,1
+imputer=Mean | aug=none | physics=yes | log-target=yes | indicators=no,1
+imputer=Autoencoder | aug=noise | physics=yes | log-target=yes | indicators=yes,1
+imputer=Autoencoder | aug=copula | physics=yes | log-target=yes | indicators=yes,1
+imputer=Autoencoder | aug=copula | physics=yes | log-target=no | indicators=yes,1
+imputer=KNN | aug=noise | physics=no | log-target=no | indicators=no,1
+imputer=Autoencoder | aug=noise | physics=yes | log-target=no | indicators=no,1
+imputer=Mean | aug=copula | physics=yes | log-target=no | indicators=yes,1
+imputer=KNN | aug=noise | physics=yes | log-target=yes | indicators=yes,1
+imputer=Mean | aug=none | physics=no | log-target=yes | indicators=yes,1
+imputer=Mean | aug=copula | physics=yes | log-target=yes | indicators=yes,1
+imputer=Autoencoder | aug=none | physics=yes | log-target=no | indicators=yes,1
+imputer=KNN | aug=copula | physics=no | log-target=no | indicators=no,1
+imputer=Autoencoder | aug=none | physics=yes | log-target=no | indicators=no,1

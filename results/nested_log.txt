@@ -1,0 +1,29 @@
+nested done in 79.1 min
+                      model    R2  R2_sd    MAE  MAE_sd   RMSE  RMSE_sd
+              Random Forest 0.658  0.043 11.568   0.375 18.804    1.182
+                   LightGBM 0.637  0.039 11.166   0.494 19.411    1.023
+                        DNN 0.206  0.030 18.711   1.946 28.731    0.539
+           Average ensemble 0.596  0.041 12.583   0.327 20.479    1.023
+Stacked ensemble (proposed) 0.606  0.083 12.429   0.981 20.137    2.072
+imputer=Mean | aug=none | physics=yes | log-target=no | indicators=no               4
+imputer=Mean | aug=noise | physics=yes | log-target=no | indicators=no              2
+imputer=Mean | aug=copula | physics=yes | log-target=yes | indicators=no            2
+imputer=Mean | aug=none | physics=no | log-target=yes | indicators=no               2
+imputer=Mean | aug=noise | physics=yes | log-target=yes | indicators=yes            2
+imputer=KNN | aug=none | physics=yes | log-target=no | indicators=no                2
+imputer=Mean | aug=copula | physics=yes | log-target=no | indicators=no             2
+imputer=Mean | aug=noise | physics=yes | log-target=yes | indicators=no             1
+imputer=Mean | aug=none | physics=yes | log-target=yes | indicators=no              1
+imputer=Autoencoder | aug=noise | physics=yes | log-target=yes | indicators=yes     1
+imputer=Autoencoder | aug=copula | physics=yes | log-target=yes | indicators=yes    1
+imputer=Autoencoder | aug=copula | physics=yes | log-target=no | indicators=yes     1
+imputer=KNN | aug=noise | physics=no | log-target=no | indicators=no                1
+imputer=Autoencoder | aug=noise | physics=yes | log-target=no | indicators=no       1
+imputer=Mean | aug=copula | physics=yes | log-target=no | indicators=yes            1
+imputer=KNN | aug=noise | physics=yes | log-target=yes | indicators=yes             1
+imputer=Mean | aug=none | physics=no | log-target=yes | indicators=yes              1
+imputer=Mean | aug=copula | physics=yes | log-target=yes | indicators=yes           1
+imputer=Autoencoder | aug=none | physics=yes | log-target=no | indicators=yes       1
+imputer=KNN | aug=copula | physics=no | log-target=no | indicators=no               1
+imputer=Autoencoder | aug=none | physics=yes | log-target=no | indicators=no        1
+exit 0

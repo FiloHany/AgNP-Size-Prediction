@@ -1,0 +1,8 @@
+copula 0.661
+noise 0.639
+none 0.722
+LOSO copula 0.47
+LC copula
+LC noise
+LC none
+exit 0

@@ -1,0 +1,6 @@
+excel_row,Ref,column,raw_value,used_value,rule
+8.0,7,Nano size,20nm-30nm,20.0,range -> lower bound
+26.0,15,Nano size,2021-08-15 00:00:00,8.0,"Excel date; read as range 8-15 nm, lower bound used (verify with Ref 15)"
+33.0,23,Current,0.8 to 1.6,0.8,range -> lower bound
+33.0,23,Temperature,32.5 and 63 °C,32.5,range -> lower bound
+,"1,18",all,identical records,0.0,"kept, same CV group (always in the same fold)"
